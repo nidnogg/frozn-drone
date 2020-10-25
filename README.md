@@ -1,6 +1,6 @@
-# the tutz drone
+# frozn drone
 
-the tutz Drone is a tiny web app mimicking a radio widget - featuring the cool work of [the tutz](https://thetutz.bandcamp.com/), an experimental musician from Brazil.
+frozn Drone is a tiny web app mimicking a radio widget - featuring the cool work of [frozn](https://www.instagram.com/TheFroznColors/), a rock, hip-hop, and electronic musician from India.
 
 
 ## Usage
