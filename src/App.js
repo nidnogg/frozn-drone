@@ -66,21 +66,25 @@ const App = () => {
       {/*<img className="background-img" src={Bg} alt="background"></img>*/}
       <section ref={menu} className="main-menu-section">
         <div ref={menuHeaderDiv} className="main-menu-header">
-            <span ref={menuHeader} className="menu-header">the tutz drone</span> <span className="ver-num" ref={verNum}>v1.0</span>     
+            <span ref={menuHeader} className="menu-header">frozn drone</span> <span className="ver-num" ref={verNum}>v1.0</span>     
         </div>
         
         <div ref={menuContentDiv} className="main-menu-content">
           <p>
-            welcome to the tutz radio.
-            
-            <br/> <br/>
-            linky link <a href="https://patreon.com/nidnogg">patreon</a>
-            maybe free coffee? @ <a href="https://ko-fi.com/nidnogg">ko-fi</a> com suas fotos.
-
-            thanks for listening, nidnogg. <br />
+            Hey! If you like what you're hearing, <br/>
+            I'm grateful! I'm relatively new and have just started posting my songs. <br/>
+            I'm into rock, hip-hop and EDM. <br/>
+            I am producing my first original song and am sharing my journey on <br/>
+            <a href="https://www.instagram.com/TheFroznColors/">Instagram</a> (@TheFroznColors) and <a href="https://twitter.com/FroznColors">Twitter</a> (@FroznColors). <br/>
+            I'd love for you to join me with my journey! Thanks a lot.
+          <br/> <br/>
+            sup I'm nidnogg I'm making <a href="https://nidnogg.bandcamp.com/releases">the diagonal mind.</a>
+            tip tip @ <a href="https://patreon.com/nidnogg">patreon</a>
+            maybe free coffee? @ <a href="https://ko-fi.com/nidnogg">ko-fi</a>   
+            thanks for listening, nid. <br />
             check out nidnogg's <a href="https://soundcloud.com/nidnogg">soundcloud!</a> <br/>
             based off Docubyte's phenomenal <a href="https://www.docubyte.com/works/guide-to-computing/">Guide to Computing.</a> <br />
-            cheers from #SiliconRio!
+            cheers from #silicon-rio @ the cyber artnet's official discord channel! !
           </p>
         </div>
       </section>
