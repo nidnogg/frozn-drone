@@ -1,0 +1,44 @@
+{
+  "name": "the-tutz-drone",
+  "version": "1.0.0",
+  "description": "",
+  "private": "true",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm dist/bundle.js",
+    "dev": "parcel serve public/index.html --port 3000",
+    "build": "parcel build public/index.html --public-url /the-tutz-drone",
+    "deploy": "gh-pages -d dist",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nidnogg/the-tutz-drone.git"
+  },
+  "keywords": [
+    "mood",
+    "drone"
+  ],
+  "author": "nidnogg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nidnogg/the-tutz-drone/issues"
+  },
+  "homepage": "https://github.com/Nidnogg/the-tutz-drone",
+  "dependencies": {
+    "@svgr/parcel-plugin-svgr": "^4.3.3",
+    "css": "^2.2.4",
+    "gh-pages": "^3.1.0",
+    "gsap": "^3.5.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-spring": "^8.0.27",
+    "react-svg": "^10.0.26"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@svgr/cli": "^5.4.0",
+    "parcel-bundler": "^1.12.4"
+  }
+}
